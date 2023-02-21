@@ -2,9 +2,9 @@
 
 $pathInfo = $_SERVER['PATH_INFO'] ?? '/';
 $urlMap = [
-    '/binchecker' => '../pages/binchecker.php',
-    '/ccgen' => '../pages/generator.php',
-    '/' => '../pages/home.php'
+    '/binchecker' => 'pages/binchecker.php',
+    '/ccgen' => 'pages/generator.php',
+    '/' => 'pages/home.php'
 ];
 
 if (isset($urlMap[$pathInfo])) {
